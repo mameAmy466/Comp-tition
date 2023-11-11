@@ -1,0 +1,52 @@
+{
+  "top": {
+    "apply": "REGISTER",
+    "event_date": "Nov 24, 2023",
+    "event_locale": "DAKAR"
+  },
+  "candidature": {
+    "deposer": "REGISTER",
+    "verify": "CHECK MY APPLICATION",
+    "approbation_officielle": "Approval Letter Template",
+    "info_personnelles": "Personal informations",
+    "contact": "Contact details",
+    "participation": "Participation details",
+    "form_inscription": "Registration Form",
+    "prix_chef_etat": "Head of State Grand Prix Competition",
+    "select_file": "Select a file",
+    "soumettre": "Submit",
+    "suivant": "Next",
+    "prix_chef_etat_edition": "International Grand Prize of the Head of State for the Quran Recital - 2023 EDITION",
+    "code_candidature": "Application Code",
+    "vérification_andidature": "Candidate Verification",
+    "verifier": "Verify",
+    "code": "Code",
+    "Age": "Age",
+    "Pays": "Country",
+    "Riwâyat": "Riwâyat"
+  },
+  "nav": {
+    "inscrire": "Register",
+    "guide": "Guide",
+    "activites": "Activities",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "presentation": {
+    "lire_plus": "Read More"
+  },
+  "activite": {
+    "activites": "Activities",
+    "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna"
+  },
+  "footer": {
+    "candidat": "Candidate",
+    "menu": "Menu",
+    "contact": "Contact",
+    "nous_contacter": "Contact Us",
+    "deposer_candidature": "Submit my application",
+    "verifier_candidature": "CHECK MY APPLICATION",
+    "termes_conditions": "Terms & Conditions",
+    "policy": "Privacy Policy"
+  }
+}

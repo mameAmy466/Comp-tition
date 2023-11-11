@@ -1,0 +1,52 @@
+{
+  "top": {
+    "apply": "DEPOSER MA CANDIDATURE",
+    "event_date": "24 Nov 2023",
+    "event_locale": "DAKAR"
+  },
+  "candidature": {
+    "deposer": "DEPOSER MA CANDIDATURE",
+    "verify": "VERIFIER MA CANDIDATURE",
+    "approbation_officielle": "Exemple d'approbation officielle",
+    "info_personnelles": "Informations personnelles",
+    "contact": "Contact",
+    "participation": "Participation",
+    "form_inscription": "Formulaire d’inscription",
+    "prix_chef_etat": "au Prix Chef de L'Etat",
+    "select_file": "Selectionner un fichier",
+    "soumettre": "Soumettre",
+    "suivant": "Suivant",
+    "prix_chef_etat_edition": "Prix International du Chef de l'Etat pour le Récital de Coran - EDITION 2023",
+    "code_candidature": "Code candidature",
+    "vérification_andidature": "Vérification de Candidature",
+    "verifier": "Vérifier",
+    "code": "Code",
+    "Age": "Age",
+    "Pays": "Pays",
+    "Riwâyat": "Riwâyat"
+  },
+  "nav": {
+    "inscrire": "S'INSCRIRE",
+    "guide": "GUIDE",
+    "activites": "ACTIVITÉS",
+    "faq": "FAQ",
+    "contact": "CONTACT"
+  },
+  "presentation": {
+    "lire_plus": "Lire plus"
+  },
+  "activite": {
+    "activites": "Activités",
+    "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna"
+  },
+  "footer": {
+    "candidat": "Candidat",
+    "menu": "Menu",
+    "contact": "Contact",
+    "nous_contacter": "Nous Contacter",
+    "deposer_candidature": "Déposer ma candidature",
+    "verifier_candidature": "Vérifier ma candidature",
+    "termes_conditions": "Termes & Conditions",
+    "policy": "Politique de confidentialité"
+  }
+}

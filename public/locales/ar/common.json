@@ -1,0 +1,52 @@
+{
+  "top": {
+    "apply": "تقديم طلب",
+    "event_date": "٢٤ نوفمبر ٢٠٢٣",
+    "event_locale": "داكار"
+  },
+  "candidature": {
+    "deposer": "تقديم طلب",
+    "verify": "تتبع حالة الطلب",
+    "approbation_officielle": "نموذج خطاب الموافقة",
+    "info_personnelles": "معلومات شخصية",
+    "contact": "معلومات الاتصال",
+    "participation": "معلومات على مشاركة",
+    "form_inscription": "استمارة التسجيل",
+    "prix_chef_etat": "مسابقة رئيس الدولة للجائزة الكبرى",
+    "select_file": "تحديد ملف",
+    "soumettre": "يُقدِّم",
+    "suivant": "التالي",
+    "prix_chef_etat_edition": "جائزة رئيس الدولة العالمية الكبرى لتحفيظ القرآن الكريم – نسخة 2023",
+    "code_candidature": "رمز التطبيق",
+    "vérification_andidature": "التحقق من المرشح",
+    "verifier": "التحقق",
+    "code": "رمز",
+    "Age": "العمر",
+    "Pays": "بلد",
+    "Riwâyat": "رِوَايَة"
+  },
+  "nav": {
+    "inscrire": "تقديم طلب",
+    "guide": "الدليل",
+    "activites": "الأنشطة",
+    "faq": "التعليمات",
+    "contact": "اتصال"
+  },
+  "presentation": {
+    "lire_plus": "اقرأ أكثر"
+  },
+  "activite": {
+    "activites": "الأنشطة",
+    "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna"
+  },
+  "footer": {
+    "candidat": "المرشحين",
+    "menu": "قائمة",
+    "contact": "اتصال",
+    "nous_contacter": "اتصل بنا",
+    "deposer_candidature": "تقديم طلب",
+    "verifier_candidature": "تحقق من طلبي",
+    "termes_conditions": "البنود و الظروف",
+    "policy": "سياسة الخصوصية"
+  }
+}

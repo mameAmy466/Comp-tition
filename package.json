@@ -1,0 +1,41 @@
+{
+  "name": "simen-competition",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullpage/react-fullpage": "^0.1.40",
+    "@mui/material": "^5.14.14",
+    "@mui/x-date-pickers": "^6.16.3",
+    "dayjs": "^1.11.10",
+    "html-react-parser": "^4.2.9",
+    "i18next": "^23.6.0",
+    "next": "13.5.6",
+    "next-i18next": "^14.0.3",
+    "next-language-detector": "^1.0.2",
+    "next-seo": "^6.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-i18next": "^13.3.1",
+    "react-player": "^2.13.0",
+    "swiper": "^11.0.2",
+    "swr": "^2.2.4",
+    "url-join": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,2 @@
+export const API_HEAD_URL = process.env.NEXT_PUBLIC_API_ENDPOINT;
+export const APPROBATION_FILE = process.env.NEXT_PUBLIC_APPROBATION_FILE_URL;
