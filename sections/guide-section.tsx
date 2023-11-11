@@ -24,7 +24,7 @@ function GuideSection({ sectionData }: { sectionData: IGuideSectionData }) {
           backgroundPosition: "right top, left bottom",
           backgroundRepeat: "no-repeat, no-repeat",
           backgroundSize: "100px 100px, 100px 100px",
-          backgroundColor: "#0A2752",
+          backgroundColor: "#142618",
         }}
       >
         <Container maxWidth="xl">
@@ -60,7 +60,7 @@ function GuideSection({ sectionData }: { sectionData: IGuideSectionData }) {
                       alignItems: "center",
                       justifyContent: "center",
                       minHeight: { xs: 60, sm: 90 },
-                      backgroundColor: "#132E55",
+                      backgroundColor: "#142618",
                     }}
                     onClick={() => {
                       detailDialog.showDialog("text", item.slug, "guide");
@@ -83,7 +83,7 @@ function GuideSection({ sectionData }: { sectionData: IGuideSectionData }) {
             </Grid>
             <Button
               variant="contained"
-              sx={{ backgroundColor: "#4991FD", color: "white" }}
+              sx={{ backgroundColor: "#019541", color: "white" }}
               onClick={() => {
                 detailDialog.showDialog("form", "c", "candidate");
               }}

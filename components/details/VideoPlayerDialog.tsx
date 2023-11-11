@@ -40,7 +40,7 @@ function VideoPlayerDialog({
       onClose={handleClose}
       PaperProps={{
         sx: {
-          backgroundColor: "#0A2752",
+          backgroundColor: "#142618",
           color: "white",
           // backgroundImage: 'url(/apropos/bg1.png)',
           // backgroundRepeat: 'no-repeat'a,
@@ -80,6 +80,7 @@ function VideoPlayerDialog({
                 {[1, 2, 3, 4].map((item) => (
                   <ListItem
                     key={item}
+                    sx={{backgroundColor: "#06883E", marginBottom: "25px", padding: "10px"}}
                     secondaryAction={
                       <IconButton edge="end" aria-label="play">
                         <VideoPlayIcon />
@@ -97,6 +98,7 @@ function VideoPlayerDialog({
                       primaryTypographyProps={{
                         sx: {
                           fontSize: { xs: "14px", sm: "16px", md: "18px" },
+                          paddingBottom: "30px",
                         },
                       }}
                       secondary="23/10/2023"

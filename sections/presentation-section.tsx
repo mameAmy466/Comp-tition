@@ -57,7 +57,7 @@ function PresentationSection({ sectionData }: { sectionData: IPresentationSectio
                 >
                   <Button
                     sx={{
-                      backgroundColor: "#4991FD",
+                      backgroundColor: "#019541",
                       color: "white",
                     }}
                     variant="contained"

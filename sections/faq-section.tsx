@@ -25,7 +25,7 @@ function FAQSection({ sectionData }: { sectionData: IFaqSectionData }) {
     <div
       className="section"
       style={{
-        backgroundColor: "#0A2752",
+        backgroundColor: "#142618",
       }}
     >
       <Container maxWidth="md">
@@ -43,7 +43,7 @@ function FAQSection({ sectionData }: { sectionData: IFaqSectionData }) {
           {sectionData.questions.map((item, idx) => (
             <Accordion
               key={item.id}
-              sx={{ color: "white", backgroundColor: "#132E55" }}
+              sx={{ color: "white", backgroundColor: "#06883E" }}
               expanded={expanded === idx}
               onChange={handleChange(idx)}
             >

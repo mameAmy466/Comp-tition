@@ -9,3 +9,5 @@
 .fp-overflow {outline: 0;z-index: 2;}
 
 .top-section::before {content: "";top: 0;left: 0;bottom: 0;right: 0;position: absolute;background: rgb(20 38 24 / 79%);z-index: 1;}
+.Mui-active {color: #FFFFFF!important;}
+.Mui-active text {color: #06883E!important; fill: #06883E}

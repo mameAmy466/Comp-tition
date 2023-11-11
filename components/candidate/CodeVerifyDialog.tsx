@@ -43,7 +43,7 @@ function CodeVerifyDialog({ open, handleClose }: CodeVerifyDialogProps) {
       onClose={handleClose}
       PaperProps={{
         sx: {
-          backgroundColor: !!data ? "#0A2752" : "white",
+          backgroundColor: !!data ? "#142618" : "white",
         },
       }}
       TransitionComponent={FadeTransition}
@@ -59,7 +59,7 @@ function CodeVerifyDialog({ open, handleClose }: CodeVerifyDialogProps) {
         >
           <Container maxWidth="xs" sx={{ my: "auto" }}>
             <Stack spacing={{ xs: 2, sm: 4 }} alignItems="center">
-              <Typography textAlign="center" variant="subtitle1">
+              <Typography textAlign="center" variant="subtitle1" sx={{color: "#06883E"}}>
                   {t("candidature.prix_chef_etat_edition")}
               </Typography>
               <form onSubmit={handleSubmit}>
@@ -82,7 +82,7 @@ function CodeVerifyDialog({ open, handleClose }: CodeVerifyDialogProps) {
                       size="small"
                       type="submit"
                       variant="contained"
-                      sx={{ backgroundColor: "#0A2752" }}
+                      sx={{ backgroundColor: "#06883E" }}
                     >
                         {t("candidature.verifier")}
 
@@ -102,7 +102,7 @@ function CodeVerifyDialog({ open, handleClose }: CodeVerifyDialogProps) {
             display: "flex",
             flexDirection: "column",
             minHeight: "100vh",
-            // background: "#0A2752",
+            background: "#142618",
           }}
         >
           <Container maxWidth="sm" sx={{ my: "auto" }}>

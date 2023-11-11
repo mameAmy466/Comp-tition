@@ -21,7 +21,7 @@ function TopSection({ sectionData }: { sectionData: ITopSectionData | null }) {
       <div
         className="section top-section"
         style={{
-          backgroundColor: "#0A2752",
+          backgroundColor: "#06883E",
           // backgroundImage: "url(/apropos/bg1.png)",
           backgroundImage: "url(/apropos/bg1-1.png)",
           backgroundRepeat: "no-repeat",
@@ -60,7 +60,7 @@ function TopSection({ sectionData }: { sectionData: ITopSectionData | null }) {
                 formDialog.showDialog("form", "", "top");
               }}
               sx={{
-                backgroundColor: "#4991FD",
+                backgroundColor: "#019541",
                 color: "white",
                 width: { xs: "100%", sm: "auto" },
               }}

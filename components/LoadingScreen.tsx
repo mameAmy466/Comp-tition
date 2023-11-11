@@ -14,7 +14,7 @@ function LoadingScreen(props: BoxProps) {
         ...props,
       }}
     >
-      <CircularProgress />
+      <CircularProgress color="success" />
     </Box>
   );
 }

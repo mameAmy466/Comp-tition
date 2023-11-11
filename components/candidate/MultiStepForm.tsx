@@ -91,7 +91,7 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
             xs={12}
             sm={4}
             sx={{
-              backgroundColor: "#0A2752",
+              backgroundColor: "#06883E",
               backgroundImage: "url(/apropos/bg1.png)",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
@@ -166,7 +166,7 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
                 top: "16px",
                 left: "16px",
                 color: "white",
-                backgroundColor: "#405D87",
+                backgroundColor: "#06883E",
                 "&:hover": {
                   backgroundColor: "#405D87",
                 },
@@ -181,7 +181,7 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
                 top: "16px",
                 left: "350px",
                 color: "white",
-                backgroundColor: "#1976d2",
+                backgroundColor: "#06883E",
                 "&:hover": {
                   backgroundColor: "#405D87",
                 },
@@ -241,7 +241,7 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
                         <Button
                           variant="contained"
                           startIcon={<PreviousIcon />}
-                          sx={{ backgroundColor: "#0A2752" }}
+                          sx={{ backgroundColor: "#06883E", "&:hover": {backgroundColor: "#06883E"} }}
                           onClick={handleBack}
                         >
                           Précédent
@@ -252,7 +252,7 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
                         <Button
                           type="submit"
                           variant="contained"
-                          sx={{ backgroundColor: "#0A2752" }}
+                          sx={{ backgroundColor: "#06883E", "&:hover": {backgroundColor: "#06883E"} }}
                           onClick={handleSubmit}
                         >
                           {t("candidature.soumettre")}
@@ -262,7 +262,7 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
                           type="submit"
                           variant="contained"
                           endIcon={<NextIcon />}
-                          sx={{ backgroundColor: "#0A2752" }}
+                          sx={{ backgroundColor: "#06883E", "&:hover": {backgroundColor: "#06883E"} }}
                         >
                           {t("candidature.suivant")}
                         </Button>
@@ -277,19 +277,19 @@ function MultiStepForm({ steps }: MultiStepFormProps) {
       ) : !!response ? (
         <Container maxWidth="sm" sx={{ my: "auto" }}>
           <Stack spacing={{ xs: 2, sm: 4 }}>
-            <Typography textAlign="center" variant="subtitle1">
+            <Typography textAlign="center" variant="subtitle1" sx={{color: "#06883E"}}>
               {t("candidature.prix_chef_etat_edition")}
             </Typography>
             <Stack spacing={{ xs: 1, sm: 2 }} alignItems="center">
               {response.status && (
-                <SuccessCheckIcon sx={{ width: 68, height: 68 }} />
+                <SuccessCheckIcon sx={{ width: 68, height: 68, color: "#06883E" }} />
               )}
               <Typography variant="h6">Inscrit avec succès</Typography>
               <Typography variant="subtitle1">{response.msg}</Typography>
             </Stack>
             <Stack spacing={{ xs: 1, sm: 2 }} alignItems="center">
               <Typography variant="subtitle1">{t("candidature.code_candidature")}</Typography>
-              <Typography variant="h5">
+              <Typography variant="h5" sx={{color: "#06883E"}}>
                 {response.numero_candidature}
               </Typography>
             </Stack>

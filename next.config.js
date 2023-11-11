@@ -12,6 +12,7 @@ const nextConfig = {
       "actu.rts.sn",
       "tvestatic.acan.group",
       "dev.acan.group",
+      "daara.acan.group",
       "acan-fullpage-scroll.vercel.app",
     ],
   },

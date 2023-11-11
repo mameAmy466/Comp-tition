@@ -6,7 +6,7 @@ function MoveToTopButton({ handleClick }: { handleClick: VoidFunction }) {
     <IconButton
       sx={{
         color: "white",
-        backgroundColor: "#0F5DCE",
+        backgroundColor: "#06883E",
         position: "absolute",
         right: { xs: 20, sm: 100 },
         bottom: { xs: 10, sm: 100 },

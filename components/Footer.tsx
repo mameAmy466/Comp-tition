@@ -264,7 +264,7 @@ export default function Footer({
                   <Button
                     size="small"
                     sx={{
-                      backgroundColor: "#0A2752",
+                      backgroundColor: "#06883E",
                       color: "white",
                       fontSize: 12,
                       borderRadius: 0,
