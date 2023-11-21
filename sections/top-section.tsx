@@ -16,18 +16,20 @@ function TopSection({ sectionData }: { sectionData: ITopSectionData | null }) {
   const { t } = useTranslation();
   const formDialog = useDetailDialog();
 
+    const backgroundImage = sectionData && sectionData.image ? `url(${sectionData.image})` : "url(/apropos/bg1-1.png)";
+    const divStyle = {
+        backgroundColor: "#06883E",
+        backgroundImage: backgroundImage,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+    };
+
   return (
     <>
       <div
         className="section top-section"
-        style={{
-          backgroundColor: "#06883E",
-          // backgroundImage: "url(/apropos/bg1.png)",
-          backgroundImage: "url(/apropos/bg1-1.png)",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
+        style={divStyle}
       >
         <Container maxWidth="xl" sx={{ color: "white" }}>
           {!!sectionData && (

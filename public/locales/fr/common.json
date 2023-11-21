@@ -1,11 +1,11 @@
 {
   "top": {
-    "apply": "DEPOSER MA CANDIDATURE",
+    "apply": "S'INSCRIRE",
     "event_date": "24 Nov 2023",
     "event_locale": "DAKAR"
   },
   "candidature": {
-    "deposer": "DEPOSER MA CANDIDATURE",
+    "deposer": "S'INSCRIRE",
     "verify": "VERIFIER MA CANDIDATURE",
     "approbation_officielle": "Exemple d'approbation officielle",
     "info_personnelles": "Informations personnelles",

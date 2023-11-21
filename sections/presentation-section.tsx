@@ -84,7 +84,7 @@ function PresentationSection({ sectionData }: { sectionData: IPresentationSectio
                   src="/apropos/section2-logo1.png"
                   sx={{
                     objectFit: "contain",
-                    aspectRatio: 16 / 9,
+                    aspectRatio: 10 / 3,
                     width: "100%",
                   }}
                 />
@@ -97,51 +97,52 @@ function PresentationSection({ sectionData }: { sectionData: IPresentationSectio
                   src="/apropos/section2-logo2.png"
                   sx={{
                     objectFit: "contain",
-                    aspectRatio: 16 / 9,
+                    // aspectRatio: 16 / 9,
+                    aspectRatio: 10 / 3,
                     width: "100%",
                   }}
                 />
               </Paper>
             </Box>
-            <Box flex={1}>
-              <Paper elevation={1} sx={{ p: { xs: 1, sm: 4, md: 6 } }}>
-                <Box
-                  component="img"
-                  src="/apropos/section2-logo3.png"
-                  sx={{
-                    objectFit: "contain",
-                    aspectRatio: 16 / 9,
-                    width: "100%",
-                  }}
-                />
-              </Paper>
-            </Box>
-            <Box flex={1}>
-              <Paper elevation={1} sx={{ p: { xs: 1, sm: 4, md: 6 } }}>
-                <Box
-                  component="img"
-                  src="/apropos/section2-logo4.png"
-                  sx={{
-                    objectFit: "contain",
-                    aspectRatio: 16 / 9,
-                    width: "100%",
-                  }}
-                />
-              </Paper>
-            </Box>
-            <Box flex={1}>
-              <Paper elevation={1} sx={{ p: { xs: 1, sm: 4, md: 6 } }}>
-                <Box
-                  component="img"
-                  src="/apropos/section2-logo5.png"
-                  sx={{
-                    objectFit: "contain",
-                    aspectRatio: 16 / 9,
-                    width: "100%",
-                  }}
-                />
-              </Paper>
-            </Box>
+            {/*<Box flex={1}>*/}
+            {/*  <Paper elevation={1} sx={{ p: { xs: 1, sm: 4, md: 6 } }}>*/}
+            {/*    <Box*/}
+            {/*      component="img"*/}
+            {/*      src="/apropos/section2-logo3.png"*/}
+            {/*      sx={{*/}
+            {/*        objectFit: "contain",*/}
+            {/*        aspectRatio: 16 / 9,*/}
+            {/*        width: "100%",*/}
+            {/*      }}*/}
+            {/*    />*/}
+            {/*  </Paper>*/}
+            {/*</Box>*/}
+            {/*<Box flex={1}>*/}
+            {/*  <Paper elevation={1} sx={{ p: { xs: 1, sm: 4, md: 6 } }}>*/}
+            {/*    <Box*/}
+            {/*      component="img"*/}
+            {/*      src="/apropos/section2-logo4.png"*/}
+            {/*      sx={{*/}
+            {/*        objectFit: "contain",*/}
+            {/*        aspectRatio: 16 / 9,*/}
+            {/*        width: "100%",*/}
+            {/*      }}*/}
+            {/*    />*/}
+            {/*  </Paper>*/}
+            {/*</Box>*/}
+            {/*<Box flex={1}>*/}
+            {/*  <Paper elevation={1} sx={{ p: { xs: 1, sm: 4, md: 6 } }}>*/}
+            {/*    <Box*/}
+            {/*      component="img"*/}
+            {/*      src="/apropos/section2-logo5.png"*/}
+            {/*      sx={{*/}
+            {/*        objectFit: "contain",*/}
+            {/*        aspectRatio: 16 / 9,*/}
+            {/*        width: "100%",*/}
+            {/*      }}*/}
+            {/*    />*/}
+            {/*  </Paper>*/}
+            {/*</Box>*/}
           </Stack>
         </Stack>
       </Container>
