@@ -107,6 +107,7 @@ export interface IArticleDetail {
   publish_at: string;
   type: string;
   content: string;
+  url?: string;
 }
 
 export interface IAlbumDetail {
@@ -130,6 +131,7 @@ export interface IVideoDetail {
   url: string;
   content: string;
   storage: string;
+  collection: IArticleDetail[];
 }
 
 export interface ILiveEvent {

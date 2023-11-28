@@ -19,6 +19,7 @@ import LoadingScreen from "../LoadingScreen";
 import QualityImage from "../QualityImage";
 import VideoPlayer from "../video-player";
 import FadeTransition from "../FadeTransition";
+import {useRouter} from "next/router";
 
 interface VideoPlayerDialogProps {
   open: boolean;
@@ -31,7 +32,7 @@ function VideoPlayerDialog({
   slug,
 }: VideoPlayerDialogProps) {
   const { data, isLoading } = useSWR<{ result: IVideoDetail }>(slug);
-  // console.log(data);
+  const router = useRouter();
 
   return (
     <Dialog
@@ -77,12 +78,14 @@ function VideoPlayerDialog({
             </Grid>
             <Grid xs={12} sm={6}>
               <List>
-                {[1, 2, 3, 4].map((item) => (
+                {data.result.collection.map((item) => (
                   <ListItem
-                    key={item}
+                    key={item.id}
                     sx={{backgroundColor: "#06883E", marginBottom: "25px", padding: "10px"}}
                     secondaryAction={
-                      <IconButton edge="end" aria-label="play">
+                      <IconButton edge="end" aria-label="play" onClick={() => {
+                          router.push({ hash: `activity/${item.type}/${item.slug}` });
+                      }}>
                         <VideoPlayIcon />
                       </IconButton>
                     }
@@ -90,18 +93,18 @@ function VideoPlayerDialog({
                     <ListItemAvatar sx={{ mr: 2, width: { xs: 90, sm: 130 } }}>
                       <QualityImage
                         alt={`${data.result.title}_${item}`}
-                        src={`/apropos/section4-thumb${item}.png`}
+                        src={`${item.image}`}
                       />
                     </ListItemAvatar>
                     <ListItemText
-                      primary="Replay- Prestation Cheikh Hamidou Dieng - SENGAL"
+                      primary={`${item.title}`}
                       primaryTypographyProps={{
                         sx: {
                           fontSize: { xs: "14px", sm: "16px", md: "18px" },
                           paddingBottom: "30px",
                         },
                       }}
-                      secondary="23/10/2023"
+                      secondary={`${item.publish_at}`}
                       secondaryTypographyProps={{
                         sx: {
                           color: "white",
