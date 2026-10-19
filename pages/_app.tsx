@@ -3,6 +3,7 @@ import { appWithTranslation } from "next-i18next";
 import { SWRConfig } from "swr";
 
 import "@/styles/globals.css";
+import "@/styles/home.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";

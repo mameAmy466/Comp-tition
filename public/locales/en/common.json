@@ -48,5 +48,108 @@
     "verifier_candidature": "CHECK MY APPLICATION",
     "termes_conditions": "Terms & Conditions",
     "policy": "Privacy Policy"
+  },
+  "home": {
+    "metaTitle": "SENICO Quran Recitation Contest — 2026 Edition",
+    "metaDescription": "8th edition of the SENICO Grand Prix for Quran recitation. Registration, categories, calendar and prizes.",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "categories": "Categories",
+      "eligibility": "Eligibility",
+      "calendar": "Calendar",
+      "news": "News",
+      "videos": "Videos",
+      "rules": "Rules",
+      "contact": "Contact"
+    },
+    "login": "Sign in",
+    "register": "Register",
+    "rulesBtn": "Rules",
+    "readMore": "Read more",
+    "hero": {
+      "title": "SENICO Quran Recitation Contest 2026 Edition",
+      "lead": "This contest brings together reciters of the Holy Quran. SENICO is the annual gathering dedicated to excellence in recitation and memorization.",
+      "candidates": "Candidates",
+      "countries": "Countries",
+      "edition": "Edition",
+      "stat1": { "value": "500+", "label": "Registered participants" },
+      "stat2": { "value": "14", "label": "Regions represented" },
+      "stat3": { "value": "2026 Edition", "label": "National grand jubilee" },
+      "apply": "Apply",
+      "verify": "Check my application",
+      "posterKicker": "Edition",
+      "posterTitle": "SENICO GRAND PRIX",
+      "posterSubtitle": "QURAN RECITATION"
+    },
+    "about": {
+      "kicker": "About the contest",
+      "title": "Promoting excellence in the recitation of the Holy Quran",
+      "text": "Launched by the Ministry of National Education under the direct guidance of the President of the Republic, the SENICO International Prize celebrates learning, memorization and the refinement of Quran recitation, establishing Senegal as a spiritual hub of wide reach.",
+      "overlay": "SENICO GRAND PRIX"
+    },
+    "categories": {
+      "kicker": "Official events",
+      "title": "Competition categories",
+      "hifz": { "title": "Hifz", "label": "Complete memorization", "text": "Category description" },
+      "tilawa": { "title": "Tilawa", "label": "Melodic recitation", "text": "Highlighting vocal beauty, harmonic modulation and a spiritual rhythm in keeping with prophetic traditions." },
+      "tafsir": { "title": "Tafsir", "label": "Interpretation", "text": "A thorough understanding of the verses, the contexts of revelation (Asbab an-Nuzul) and exegesis." },
+      "tajwid": { "title": "Tajwid", "label": "Recitation rules", "text": "Precise mastery of elocution, the points of articulation (Makharij) and the phonetic features of expression." }
+    },
+    "conditions": {
+      "kicker": "Applications & access",
+      "title": "Eligibility conditions",
+      "c1": { "title": "Nationality & residence", "text": "Senegalese nationality, or legal residence in Senegal at the time of final registration." },
+      "c2": { "title": "Required age", "text": "Be between 7 and 45 years of age on the application closing date." },
+      "c3": { "title": "Recitation level", "text": "Master at least 5 juz' for the youth category, and complete Hifz for the adult category." },
+      "c4": { "title": "Participation rules", "text": "Must not have already won first prize in a previous SENICO edition." }
+    },
+    "calendar": {
+      "kicker": "Competition stages",
+      "title": "Official calendar 2026",
+      "d1": { "day": "16", "month": "Sept", "year": "2026", "badge": "Ongoing", "title": "Registration opens", "text": "Stage description" },
+      "d2": { "day": "30", "month": "Oct", "year": "2026", "badge": "Stage 2", "title": "Registration closes", "text": "Applications stop at midnight" },
+      "d3": { "day": "10", "month": "Nov", "year": "2026", "badge": "Stage 3", "title": "List publication", "text": "Selection of retained candidates" },
+      "d4": { "day": "20", "month": "Nov", "year": "2026", "badge": "Stage 4", "title": "Regional stage", "text": "Events in Dakar, Thiès and Ziguinchor" },
+      "d5": { "day": "15", "month": "Dec", "year": "2026", "badge": "Stage 5", "title": "National grand final", "text": "Ceremony in the presence of the Head of State" }
+    },
+    "prizes": {
+      "kicker": "Official awards",
+      "title": "Prizes and distinctions 2026",
+      "p1": { "rank": "1st Prize", "text": "Prize description", "amount": "10,000,000 FCFA" },
+      "p2": { "rank": "2nd Prize", "text": "National scholarship + advanced equipment", "amount": "5,000,000 FCFA" },
+      "p3": { "rank": "3rd Prize", "text": "Support grant + certificate of honour", "amount": "2,500,000 FCFA" }
+    },
+    "news": {
+      "kicker": "Press & media",
+      "title": "Competition news",
+      "all": "See all news →",
+      "n1": { "badge": "Opening", "title": "Registration is now open for the 2026 edition", "date": "16 Sept 2026" },
+      "n2": { "badge": "Awards", "title": "Winners will receive scholarships and distinctions", "date": "15 Dec 2026" },
+      "n3": { "badge": "Ceremony", "title": "Opening ceremony chaired by the Head of State", "date": "5 Sept 2026" },
+      "n4": { "badge": "Training", "title": "Preparation sessions in partner daaras", "date": "1 Oct 2026" },
+      "n5": { "badge": "Results", "title": "Announcement of the regional shortlists", "date": "20 Nov 2026" }
+    },
+    "history": {
+      "kicker": "Memory",
+      "title": "Contest history",
+      "all": "See all →",
+      "y1": { "year": "2025", "edition": "5th Edition", "place": "Dakar, Senegal", "meta": "210 participants · 18 finalists" },
+      "y2": { "year": "2024", "edition": "4th Edition", "place": "Thiès, Senegal", "meta": "164 participants · 15 finalists" },
+      "y3": { "year": "2023", "edition": "3rd Edition", "place": "Dakar, Senegal", "meta": "128 participants · 12 finalists" }
+    },
+    "footer": {
+      "blurb": "The great showcase of Quranic learning in Senegal. Honouring the intellectual and spiritual heritage of our daaras.",
+      "navTitle": "Navigation",
+      "home": "Home",
+      "about": "About",
+      "register": "Registration",
+      "contact": "Contact",
+      "legal": "Legal notice",
+      "contactTitle": "Contact & Secretariat",
+      "place": "Ministry of National Education, Dakar, Senegal",
+      "email": "secretariat@senico-recital.sn",
+      "rights": "SENICO © 2026 - All rights reserved."
+    }
   }
 }

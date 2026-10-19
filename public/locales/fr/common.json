@@ -48,5 +48,108 @@
     "verifier_candidature": "Vérifier ma candidature",
     "termes_conditions": "Termes & Conditions",
     "policy": "Politique de confidentialité"
+  },
+  "home": {
+    "metaTitle": "Concours de récital de Coran SENICO — Édition 2026",
+    "metaDescription": "8e édition du Grand Prix SENICO de récital du Coran. Inscriptions, catégories, calendrier et prix.",
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "categories": "Catégories",
+      "eligibility": "Éligibilité",
+      "calendar": "Calendrier",
+      "news": "Actualités",
+      "videos": "Vidéos",
+      "rules": "Règlement",
+      "contact": "Contact"
+    },
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "rulesBtn": "Règlement",
+    "readMore": "Lire plus",
+    "hero": {
+      "title": "Concours de récital de Coran SENICO Edition 2026",
+      "lead": "Ce concours réunit les récitateurs du Saint Coran. SENICO est le rendez-vous annuel dédié à l'excellence de la récitation et à la mémorisation du Saint Coran.",
+      "candidates": "Candidats",
+      "countries": "Pays",
+      "edition": "Edition",
+      "stat1": { "value": "500+", "label": "Participants inscrits" },
+      "stat2": { "value": "14", "label": "Régions représentées" },
+      "stat3": { "value": "Édition 2026", "label": "Grand jubilé national" },
+      "apply": "Candidater",
+      "verify": "Vérifier ma candidature",
+      "posterKicker": "Edition",
+      "posterTitle": "GRAND PRIX SENICO",
+      "posterSubtitle": "RECITAL DE CORAN"
+    },
+    "about": {
+      "kicker": "Présentation du concours",
+      "title": "Promouvoir l'excellence dans la récitation du Saint Coran",
+      "text": "Initié par le Ministère de l'Education Nationale sous les directives directes du Président de la République, le Prix International SENICO valorise l'apprentissage, la mémorisation et le raffinement de la récitation du Coran, érigeant le Sénégal en pôle spirituel d'envergure.",
+      "overlay": "GRAND PRIX SENICO"
+    },
+    "categories": {
+      "kicker": "Épreuves officielles",
+      "title": "Catégories de la Compétition",
+      "hifz": { "title": "Hifz", "label": "Mémorisation complète", "text": "Description de la catégorie" },
+      "tilawa": { "title": "Tilawa", "label": "Récitation mélodieuse", "text": "Mise en valeur de la beauté vocale, de la modulation harmonique et du rythme spirituel conforme aux traditions prophétiques." },
+      "tafsir": { "title": "Tafsir", "label": "Interprétation", "text": "Démonstration d'une compréhension approfondie des versets, des contextes de révélation (Asbab an-Nuzul) et de l'exégèse." },
+      "tajwid": { "title": "Tajwid", "label": "Règles de récitation", "text": "Maîtrise pointue de l'élocution, du point de sortie des lettres (Makharij) et des caractéristiques d'expression phonique." }
+    },
+    "conditions": {
+      "kicker": "Candidatures & Accès",
+      "title": "Conditions d'éligibilité",
+      "c1": { "title": "Nationalité & résidence", "text": "Être de nationalité sénégalaise ou résident légal au Sénégal au moment de l'inscription finale." },
+      "c2": { "title": "Critère d'Âge requis", "text": "Avoir impérativement entre 7 et 45 ans accomplis à la date de clôture de dépôt des candidatures." },
+      "c3": { "title": "Niveau de récitation", "text": "Maîtriser au minimum 5 juz' pour la catégorie jeunes, et le Hifz complet pour la catégorie adulte." },
+      "c4": { "title": "Règles de participation", "text": "Ne pas avoir déjà remporté de premier prix dans une édition précédente de la compétition SENICO." }
+    },
+    "calendar": {
+      "kicker": "Étapes de la compétition",
+      "title": "Calendrier Officiel 2026",
+      "d1": { "day": "16", "month": "Sept", "year": "2026", "badge": "En cours", "title": "Ouverture des inscriptions", "text": "Description de l'étape" },
+      "d2": { "day": "30", "month": "Oct", "year": "2026", "badge": "Étape 2", "title": "Clôture des inscriptions", "text": "Fin d'enregistrement des dossiers à minuit" },
+      "d3": { "day": "10", "month": "Nov", "year": "2026", "badge": "Étape 3", "title": "Publication de la liste", "text": "Sélection des candidats retenus" },
+      "d4": { "day": "20", "month": "Nov", "year": "2026", "badge": "Étape 4", "title": "Phase régionale", "text": "Épreuves à Dakar, Thiès, Ziguinchor" },
+      "d5": { "day": "15", "month": "Déc", "year": "2026", "badge": "Étape 5", "title": "Grande Finale Nationale", "text": "Cérémonie en présence du Chef de l'État" }
+    },
+    "prizes": {
+      "kicker": "Récompenses officielles",
+      "title": "Prix et Distinctions 2026",
+      "p1": { "rank": "1er Prix", "text": "Description du prix", "amount": "10,000,000 FCFA" },
+      "p2": { "rank": "2ème Prix", "text": "Bourse d'études nationale + Équipements de pointe", "amount": "5,000,000 FCFA" },
+      "p3": { "rank": "3ème Prix", "text": "Dotation financière de soutien + Certificat d'honneur", "amount": "2,500,000 FCFA" }
+    },
+    "news": {
+      "kicker": "Presse & médias",
+      "title": "Actualités de la Compétition",
+      "all": "Voir toutes les actualités →",
+      "n1": { "badge": "Ouverture", "title": "Les inscriptions sont désormais ouvertes pour l'édition 2026", "date": "16 sept. 2026" },
+      "n2": { "badge": "Récompenses", "title": "Les lauréats recevront des bourses d'études et distinctions", "date": "15 déc. 2026" },
+      "n3": { "badge": "Cérémonie", "title": "Cérémonie d'ouverture présidée par le Chef de l'État", "date": "5 sept. 2026" },
+      "n4": { "badge": "Formation", "title": "Sessions de préparation dans les Daaras partenaires", "date": "1 oct. 2026" },
+      "n5": { "badge": "Résultats", "title": "Annonce des présélections régionales", "date": "20 nov. 2026" }
+    },
+    "history": {
+      "kicker": "Mémoire",
+      "title": "Historique du concours",
+      "all": "Voir tout →",
+      "y1": { "year": "2025", "edition": "5ème Édition", "place": "Dakar, Sénégal", "meta": "210 participants · 18 finalistes" },
+      "y2": { "year": "2024", "edition": "4ème Édition", "place": "Thiès, Sénégal", "meta": "164 participants · 15 finalistes" },
+      "y3": { "year": "2023", "edition": "3ème Édition", "place": "Dakar, Sénégal", "meta": "128 participants · 12 finalistes" }
+    },
+    "footer": {
+      "blurb": "La grande vitrine de l'apprentissage coranique au Sénégal. Valoriser l'héritage intellectuel et spirituel de nos daaras.",
+      "navTitle": "Navigation",
+      "home": "Accueil",
+      "about": "À propos",
+      "register": "Inscription",
+      "contact": "Contact",
+      "legal": "Mentions Légales",
+      "contactTitle": "Contact & Secrétariat",
+      "place": "Ministère de l'Éducation Nationale, Dakar, Sénégal",
+      "email": "secretariat@senico-recital.sn",
+      "rights": "SENICO © 2026 - Tous droits réservés."
+    }
   }
 }
